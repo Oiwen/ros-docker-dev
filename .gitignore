@@ -1,0 +1,46 @@
+# Local Codex/agent state
+/.agents/
+/.codex/
+
+# Generated Docker environments
+/dockers/*/docker-compose.yml
+
+# ROS/catkin and CMake build outputs
+/build/
+/devel/
+/install/
+/log/
+/.catkin_tools/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+
+# Python caches and local virtual environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# Logs, temporary files, and editor state
+*.log
+*.pid
+*.tmp
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+.DS_Store
+
+# Patch and merge leftovers
+*.orig
+*.rej
